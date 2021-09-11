@@ -19,23 +19,23 @@ div {
 }
 
 .top {
-  border-top-left-radius: $size * 2;
-  border-top-right-radius: $size * 2;
+  border-top-left-radius: $size;
+  border-top-right-radius: $size;
 }
 
 .right {
-  border-bottom-right-radius: $size * 2;
-  border-top-right-radius: $size * 2;
+  border-bottom-right-radius: $size;
+  border-top-right-radius: $size;
 }
 
 .bottom {
-  border-bottom-left-radius: $size * 2;
-  border-bottom-right-radius: $size * 2;
+  border-bottom-left-radius: $size;
+  border-bottom-right-radius: $size;
 }
 
 .left {
-  border-bottom-left-radius: $size * 2;
-  border-top-left-radius: $size * 2;
+  border-bottom-left-radius: $size;
+  border-top-left-radius: $size;
 }
 
 .rotate {

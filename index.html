@@ -5,9 +5,18 @@
   <head>
     <title> This site is under construction </title> 
     <meta charset ="UTF-8">
+    <script> 
+      var clicks = 0; 
+      function count() { 
+        clicks +=1;
+        document.getElementById("thebutton").innerHTML = clicks; 
   </head>
   <body> 
-    <h1> This site is under construciton </h>
+    <button onclick = "count()"> click to count </button> 
+        <p id="thebutton"></p>
+    <h1> This site is under construciton </h1> 
+
+    
   </body> 
     
 </html> 

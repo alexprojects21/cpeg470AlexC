@@ -1,22 +1,24 @@
-<!-- alex --> 
-<!DOCTYPE html> 
-<html lang = "en"> 
+    <!DOCTYPE html>
+<html>
+<head>
+<script>
+     var clicks = 0;
+    function myFunction() {
 
-  <head>
-    <title> This site is under construction </title> 
-    <meta charset ="UTF-8">
-    <script> 
-      var clicks = 0; 
-      function count() { 
-        clicks +=1;
-        document.getElementById("thebutton").innerHTML = clicks; 
-  </head>
-  <body> 
-    <button onclick = "count()"> click to count </button> 
-        <p id="thebutton"></p>
-    <h1> This site is under construciton </h1> 
+        clicks += 1;
+        document.getElementById("demo").innerHTML = clicks;
 
-    
-  </body> 
-    
-</html> 
+
+    }
+</script>
+</head>
+<body>
+
+<p>Click the button to trigger a function.</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
